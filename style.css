@@ -13,6 +13,7 @@ body {
     font-family: digitalFont;
     letter-spacing: 5px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .outer-container {
@@ -73,12 +74,10 @@ body {
   }
 
   @media screen and (max-width: 500px) {
-    .heading {
-        margin-bottom: 10px;
-    }
+    
     .container {
         height: 150px;
-        width: 300px;
+        width: 350px;
         gap: 10px;
     }
     .box {
