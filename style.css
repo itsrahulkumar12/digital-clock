@@ -13,7 +13,11 @@ body {
     font-family: digitalFont;
     letter-spacing: 5px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.heading span {
+    display: none;
 }
 
 .outer-container {
@@ -74,10 +78,12 @@ body {
   }
 
   @media screen and (max-width: 500px) {
-    
+    .heading span {
+        display: block;
+    }
     .container {
         height: 150px;
-        width: 350px;
+        width: 340px;
         gap: 10px;
     }
     .box {
